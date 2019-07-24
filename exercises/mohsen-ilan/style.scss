@@ -1,0 +1,74 @@
+@mixin transform ($property){
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+.box {
+    width: 200px;
+    height:200px;
+    padding:20px;
+    margin: 30px;
+    text-align:center;
+    background: chocolate;
+}
+
+.box1 {    
+    //@include transform(rotate(-20deg));
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.box2 { 
+    @include transform(rotate(-30deg));
+    background-color: aquamarine;
+}
+
+@mixin hilight() {
+    padding: 5px;
+    border: 2px crimson;
+}
+
+.drmohsen {
+    @include hilight();
+    text-align:center;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.green{
+    background-color: rgb(165, 204, 180);
+    float: right;
+    height: 200px;
+    width: 20%;
+}
+.darkgreen{
+    background-color: rgb(72, 131, 116);
+    float: right;
+    height: 750px;
+    width: 20%;
+    overscroll-behavior: rotate;
+}
+.blue{
+    background-color: rgb(156, 201, 226);
+    float: left;
+    height: 600px;
+    width: 80%;
+
+}
+.yellow{
+    background-color: rgb(206, 219, 148);
+    float: right;
+    height: 200px;
+    width: 80%;
+}
+
+.darkblue{
+    background-color: rgb(139, 170, 236);
+    float: right;
+    height: 150px;
+    width: 80%;
+}
+

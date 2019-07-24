@@ -1,0 +1,66 @@
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  background: chocolate;
+}
+
+.box1 {
+  -webkit-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+.box2 {
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  background-color: aquamarine;
+}
+
+.drmohsen {
+  padding: 5px;
+  border: 2px crimson;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.green {
+  background-color: #a5ccb4;
+  float: right;
+  height: 200px;
+  width: 20%;
+}
+
+.darkgreen {
+  background-color: #488374;
+  float: right;
+  height: 750px;
+  width: 20%;
+  overscroll-behavior: rotate;
+}
+
+.blue {
+  background-color: #9cc9e2;
+  float: left;
+  height: 600px;
+  width: 80%;
+}
+
+.yellow {
+  background-color: #cedb94;
+  float: right;
+  height: 200px;
+  width: 80%;
+}
+
+.darkblue {
+  background-color: #8baaec;
+  float: right;
+  height: 150px;
+  width: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */
